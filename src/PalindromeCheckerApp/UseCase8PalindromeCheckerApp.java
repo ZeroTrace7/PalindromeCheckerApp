@@ -11,6 +11,11 @@ public class UseCase8PalindromeCheckerApp {
     public static void main(String[] args) {
         String text = "civic";
 
+        if (text == null) {
+            System.out.println("Result: null is not a palindrome.");
+            return;
+        }
+
         if (text.length() <= 1) {
             System.out.println("Result: " + text + " is a palindrome.");
             return;
