@@ -3,7 +3,6 @@ public class UseCase11PalindromeCheckerApp {
         String text = "level";
         PalindromeChecker checker = new PalindromeChecker();
         boolean isPalindrome = checker.checkPalindrome(text);
-
         if (isPalindrome) {
             System.out.println("Result: " + text + " is a palindrome.");
         } else {
@@ -11,3 +10,4 @@ public class UseCase11PalindromeCheckerApp {
         }
     }
 }
+

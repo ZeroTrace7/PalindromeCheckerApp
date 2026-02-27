@@ -3,11 +3,9 @@ public class PalindromeChecker {
         if (text == null) {
             return false;
         }
-
         char[] characters = text.toCharArray();
         int left = 0;
         int right = characters.length - 1;
-
         while (left < right) {
             if (characters[left] != characters[right]) {
                 return false;
@@ -15,7 +13,7 @@ public class PalindromeChecker {
             left++;
             right--;
         }
-
         return true;
     }
 }
+
