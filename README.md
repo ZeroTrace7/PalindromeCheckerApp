@@ -70,8 +70,8 @@ git config user.email
 If the user is different, reset globally:
 
 ```bash
-git config --global user.name "your GitHub username"
-git config --global user.email "your GitHub email"
+git config --global user.name "ZeroTrace7"
+git config --global user.email "shreyashgupta999@gmail.com"
 ```
 
 ### Step 3: Git Repository Configuration (Local)
@@ -79,11 +79,11 @@ git config --global user.email "your GitHub email"
 ```bash
 git init
 git branch -M main
-git remote add origin https://github.com/<your-repo>.git
+git remote add origin https://github.com/ZeroTrace7/PalindromeCheckerApp.git
 git remote -v
 ```
 
-Note: Replace `https://github.com/<your-repo>.git` with your actual repository URL.
+Note: This repo already uses `https://github.com/ZeroTrace7/PalindromeCheckerApp.git`.
 
 Expected:
 
